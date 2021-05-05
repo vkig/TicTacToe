@@ -1,2 +1,2 @@
 # TicTacToe
-Implemented TicTacToe gama with an own made widget collection
+Implemented TicTacToe game with an own made widget collection
