@@ -6,3 +6,15 @@
 
 #IncludeRegexTransform: 
 
+D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/graphics.hpp
+string
+-
+vector
+-
+
+D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/main.cpp
+iostream
+-
+graphics.hpp
+D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/graphics.hpp
+
