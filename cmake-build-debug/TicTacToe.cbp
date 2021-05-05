@@ -130,6 +130,36 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/Application.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/Application.hpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GButton.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GButton.hpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GSelect.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GSelect.hpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GSetNumber.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GSetNumber.hpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GWidget.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GWidget.hpp">
+			<Option target="graphics"/>
+		</Unit>
 		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/graphics.cpp">
 			<Option target="graphics"/>
 		</Unit>

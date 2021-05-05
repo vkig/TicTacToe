@@ -154,6 +154,141 @@ graphics/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/build
 .PHONY : graphics/fast
 
+Application.obj: Application.cpp.obj
+
+.PHONY : Application.obj
+
+# target to build an object file
+Application.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/Application.cpp.obj
+.PHONY : Application.cpp.obj
+
+Application.i: Application.cpp.i
+
+.PHONY : Application.i
+
+# target to preprocess a source file
+Application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/Application.cpp.i
+.PHONY : Application.cpp.i
+
+Application.s: Application.cpp.s
+
+.PHONY : Application.s
+
+# target to generate assembly for a file
+Application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/Application.cpp.s
+.PHONY : Application.cpp.s
+
+GButton.obj: GButton.cpp.obj
+
+.PHONY : GButton.obj
+
+# target to build an object file
+GButton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GButton.cpp.obj
+.PHONY : GButton.cpp.obj
+
+GButton.i: GButton.cpp.i
+
+.PHONY : GButton.i
+
+# target to preprocess a source file
+GButton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GButton.cpp.i
+.PHONY : GButton.cpp.i
+
+GButton.s: GButton.cpp.s
+
+.PHONY : GButton.s
+
+# target to generate assembly for a file
+GButton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GButton.cpp.s
+.PHONY : GButton.cpp.s
+
+GSelect.obj: GSelect.cpp.obj
+
+.PHONY : GSelect.obj
+
+# target to build an object file
+GSelect.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GSelect.cpp.obj
+.PHONY : GSelect.cpp.obj
+
+GSelect.i: GSelect.cpp.i
+
+.PHONY : GSelect.i
+
+# target to preprocess a source file
+GSelect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GSelect.cpp.i
+.PHONY : GSelect.cpp.i
+
+GSelect.s: GSelect.cpp.s
+
+.PHONY : GSelect.s
+
+# target to generate assembly for a file
+GSelect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GSelect.cpp.s
+.PHONY : GSelect.cpp.s
+
+GSetNumber.obj: GSetNumber.cpp.obj
+
+.PHONY : GSetNumber.obj
+
+# target to build an object file
+GSetNumber.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GSetNumber.cpp.obj
+.PHONY : GSetNumber.cpp.obj
+
+GSetNumber.i: GSetNumber.cpp.i
+
+.PHONY : GSetNumber.i
+
+# target to preprocess a source file
+GSetNumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GSetNumber.cpp.i
+.PHONY : GSetNumber.cpp.i
+
+GSetNumber.s: GSetNumber.cpp.s
+
+.PHONY : GSetNumber.s
+
+# target to generate assembly for a file
+GSetNumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GSetNumber.cpp.s
+.PHONY : GSetNumber.cpp.s
+
+GWidget.obj: GWidget.cpp.obj
+
+.PHONY : GWidget.obj
+
+# target to build an object file
+GWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GWidget.cpp.obj
+.PHONY : GWidget.cpp.obj
+
+GWidget.i: GWidget.cpp.i
+
+.PHONY : GWidget.i
+
+# target to preprocess a source file
+GWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GWidget.cpp.i
+.PHONY : GWidget.cpp.i
+
+GWidget.s: GWidget.cpp.s
+
+.PHONY : GWidget.s
+
+# target to generate assembly for a file
+GWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GWidget.cpp.s
+.PHONY : GWidget.cpp.s
+
 graphics.obj: graphics.cpp.obj
 
 .PHONY : graphics.obj
@@ -218,6 +353,21 @@ help:
 	@echo ... rebuild_cache
 	@echo ... TicTacToe
 	@echo ... graphics
+	@echo ... Application.obj
+	@echo ... Application.i
+	@echo ... Application.s
+	@echo ... GButton.obj
+	@echo ... GButton.i
+	@echo ... GButton.s
+	@echo ... GSelect.obj
+	@echo ... GSelect.i
+	@echo ... GSelect.s
+	@echo ... GSetNumber.obj
+	@echo ... GSetNumber.i
+	@echo ... GSetNumber.s
+	@echo ... GWidget.obj
+	@echo ... GWidget.i
+	@echo ... GWidget.s
 	@echo ... graphics.obj
 	@echo ... graphics.i
 	@echo ... graphics.s

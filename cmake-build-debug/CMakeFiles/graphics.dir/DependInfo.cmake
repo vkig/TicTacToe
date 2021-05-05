@@ -4,6 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/Application.cpp" "D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/cmake-build-debug/CMakeFiles/graphics.dir/Application.cpp.obj"
+  "D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GButton.cpp" "D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/cmake-build-debug/CMakeFiles/graphics.dir/GButton.cpp.obj"
+  "D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GSelect.cpp" "D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/cmake-build-debug/CMakeFiles/graphics.dir/GSelect.cpp.obj"
+  "D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GSetNumber.cpp" "D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/cmake-build-debug/CMakeFiles/graphics.dir/GSetNumber.cpp.obj"
+  "D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GWidget.cpp" "D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/cmake-build-debug/CMakeFiles/graphics.dir/GWidget.cpp.obj"
   "D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/graphics.cpp" "D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/cmake-build-debug/CMakeFiles/graphics.dir/graphics.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
