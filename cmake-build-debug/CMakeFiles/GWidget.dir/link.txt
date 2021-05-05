@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\GWidget.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\GWidget.dir/objects.a @CMakeFiles\GWidget.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\GWidget.dir/objects.a -Wl,--no-whole-archive -o GWidget.exe -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\GWidget.dir\linklibs.rsp
