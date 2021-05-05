@@ -142,6 +142,12 @@
 		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GButton.hpp">
 			<Option target="graphics"/>
 		</Unit>
+		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GLabel.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GLabel.hpp">
+			<Option target="graphics"/>
+		</Unit>
 		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GSelect.cpp">
 			<Option target="graphics"/>
 		</Unit>
@@ -158,6 +164,12 @@
 			<Option target="graphics"/>
 		</Unit>
 		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GWidget.hpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GameModell.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GameModell.hpp">
 			<Option target="graphics"/>
 		</Unit>
 		<Unit filename="D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/graphics.cpp">

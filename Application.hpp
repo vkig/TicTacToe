@@ -11,6 +11,7 @@
 
 class Application {
 protected:
+    int XX, YY;
     std::vector<GWidget*> widgets;
 public:
     Application();

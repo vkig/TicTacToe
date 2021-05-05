@@ -12,6 +12,11 @@ CMakeFiles/graphics.dir/GButton.cpp.obj
  D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GButton.hpp
  D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GWidget.hpp
  D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/graphics.hpp
+CMakeFiles/graphics.dir/GLabel.cpp.obj
+ D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GLabel.cpp
+ D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GLabel.hpp
+ D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GWidget.hpp
+ D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/graphics.hpp
 CMakeFiles/graphics.dir/GSelect.cpp.obj
  D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GButton.hpp
  D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GSelect.cpp
@@ -28,6 +33,9 @@ CMakeFiles/graphics.dir/GWidget.cpp.obj
  D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GWidget.cpp
  D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GWidget.hpp
  D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/graphics.hpp
+CMakeFiles/graphics.dir/GameModell.cpp.obj
+ D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GameModell.cpp
+ D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/GameModell.hpp
 CMakeFiles/graphics.dir/graphics.cpp.obj
  D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/char2.h
  D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/graphics.cpp

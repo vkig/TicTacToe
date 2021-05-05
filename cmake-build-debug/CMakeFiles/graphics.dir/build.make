@@ -159,6 +159,34 @@ CMakeFiles/graphics.dir/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/Application.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\Application.cpp" -o CMakeFiles\graphics.dir\Application.cpp.s
 
+CMakeFiles/graphics.dir/GameModell.cpp.obj: CMakeFiles/graphics.dir/flags.make
+CMakeFiles/graphics.dir/GameModell.cpp.obj: CMakeFiles/graphics.dir/includes_CXX.rsp
+CMakeFiles/graphics.dir/GameModell.cpp.obj: ../GameModell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/graphics.dir/GameModell.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\GameModell.cpp.obj -c "D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\GameModell.cpp"
+
+CMakeFiles/graphics.dir/GameModell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/GameModell.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\GameModell.cpp" > CMakeFiles\graphics.dir\GameModell.cpp.i
+
+CMakeFiles/graphics.dir/GameModell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/GameModell.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\GameModell.cpp" -o CMakeFiles\graphics.dir\GameModell.cpp.s
+
+CMakeFiles/graphics.dir/GLabel.cpp.obj: CMakeFiles/graphics.dir/flags.make
+CMakeFiles/graphics.dir/GLabel.cpp.obj: CMakeFiles/graphics.dir/includes_CXX.rsp
+CMakeFiles/graphics.dir/GLabel.cpp.obj: ../GLabel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/graphics.dir/GLabel.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\GLabel.cpp.obj -c "D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\GLabel.cpp"
+
+CMakeFiles/graphics.dir/GLabel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/GLabel.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\GLabel.cpp" > CMakeFiles\graphics.dir\GLabel.cpp.i
+
+CMakeFiles/graphics.dir/GLabel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/GLabel.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\GLabel.cpp" -o CMakeFiles\graphics.dir\GLabel.cpp.s
+
 # Object files for target graphics
 graphics_OBJECTS = \
 "CMakeFiles/graphics.dir/graphics.cpp.obj" \
@@ -166,7 +194,9 @@ graphics_OBJECTS = \
 "CMakeFiles/graphics.dir/GButton.cpp.obj" \
 "CMakeFiles/graphics.dir/GSetNumber.cpp.obj" \
 "CMakeFiles/graphics.dir/GSelect.cpp.obj" \
-"CMakeFiles/graphics.dir/Application.cpp.obj"
+"CMakeFiles/graphics.dir/Application.cpp.obj" \
+"CMakeFiles/graphics.dir/GameModell.cpp.obj" \
+"CMakeFiles/graphics.dir/GLabel.cpp.obj"
 
 # External object files for target graphics
 graphics_EXTERNAL_OBJECTS =
@@ -177,9 +207,11 @@ libgraphics.a: CMakeFiles/graphics.dir/GButton.cpp.obj
 libgraphics.a: CMakeFiles/graphics.dir/GSetNumber.cpp.obj
 libgraphics.a: CMakeFiles/graphics.dir/GSelect.cpp.obj
 libgraphics.a: CMakeFiles/graphics.dir/Application.cpp.obj
+libgraphics.a: CMakeFiles/graphics.dir/GameModell.cpp.obj
+libgraphics.a: CMakeFiles/graphics.dir/GLabel.cpp.obj
 libgraphics.a: CMakeFiles/graphics.dir/build.make
 libgraphics.a: CMakeFiles/graphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libgraphics.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libgraphics.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\graphics.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\graphics.dir\link.txt --verbose=$(VERBOSE)
 

@@ -12,6 +12,11 @@ CMakeFiles/graphics.dir/GButton.cpp.obj: ../GButton.hpp
 CMakeFiles/graphics.dir/GButton.cpp.obj: ../GWidget.hpp
 CMakeFiles/graphics.dir/GButton.cpp.obj: ../graphics.hpp
 
+CMakeFiles/graphics.dir/GLabel.cpp.obj: ../GLabel.cpp
+CMakeFiles/graphics.dir/GLabel.cpp.obj: ../GLabel.hpp
+CMakeFiles/graphics.dir/GLabel.cpp.obj: ../GWidget.hpp
+CMakeFiles/graphics.dir/GLabel.cpp.obj: ../graphics.hpp
+
 CMakeFiles/graphics.dir/GSelect.cpp.obj: ../GButton.hpp
 CMakeFiles/graphics.dir/GSelect.cpp.obj: ../GSelect.cpp
 CMakeFiles/graphics.dir/GSelect.cpp.obj: ../GSelect.hpp
@@ -27,6 +32,9 @@ CMakeFiles/graphics.dir/GSetNumber.cpp.obj: ../graphics.hpp
 CMakeFiles/graphics.dir/GWidget.cpp.obj: ../GWidget.cpp
 CMakeFiles/graphics.dir/GWidget.cpp.obj: ../GWidget.hpp
 CMakeFiles/graphics.dir/GWidget.cpp.obj: ../graphics.hpp
+
+CMakeFiles/graphics.dir/GameModell.cpp.obj: ../GameModell.cpp
+CMakeFiles/graphics.dir/GameModell.cpp.obj: ../GameModell.hpp
 
 CMakeFiles/graphics.dir/graphics.cpp.obj: ../char2.h
 CMakeFiles/graphics.dir/graphics.cpp.obj: ../graphics.cpp

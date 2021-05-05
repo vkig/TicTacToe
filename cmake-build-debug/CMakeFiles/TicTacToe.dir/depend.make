@@ -3,6 +3,7 @@
 
 CMakeFiles/TicTacToe.dir/main.cpp.obj: ../Application.hpp
 CMakeFiles/TicTacToe.dir/main.cpp.obj: ../GButton.hpp
+CMakeFiles/TicTacToe.dir/main.cpp.obj: ../GLabel.hpp
 CMakeFiles/TicTacToe.dir/main.cpp.obj: ../GSelect.hpp
 CMakeFiles/TicTacToe.dir/main.cpp.obj: ../GSetNumber.hpp
 CMakeFiles/TicTacToe.dir/main.cpp.obj: ../GWidget.hpp

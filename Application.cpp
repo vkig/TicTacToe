@@ -33,7 +33,9 @@ void Application::eventManager() {
             focus->action(ev);
         }
         for (GWidget * w : widgets) {
-            w->show();
+            if(!w->isHidden()){
+                w->show();
+            }
         }
         if(init){
             init = false;

@@ -14,7 +14,7 @@ class GWidget {
 protected:
     Application * parent;
     int posx, posy, width, height, bordersize;
-    bool selected;
+    bool selected, hidden;
     genv::color main;
     genv::color borderc;
     genv::canvas graphicRepr;
@@ -24,6 +24,8 @@ public:
             genv::color _bordercolor = genv::color(255, 255, 255));
     virtual void action(genv::event& ev) = 0;
     virtual void show();
+    virtual void hide();
+    bool isHidden();
     virtual bool isMouseOnIt(int ex, int ey) const;
     virtual void setBorderSize(int bs);
     virtual void resize(int _width, int _height);

@@ -7,6 +7,7 @@
 
 GWidget::GWidget() : main(genv::color(224, 224, 224)), borderc(genv::color(255, 255, 255)) {
     parent = nullptr;
+    hidden = false;
     posx = 0;
     posy = 0;
     width = 10;
@@ -19,6 +20,7 @@ GWidget::GWidget() : main(genv::color(224, 224, 224)), borderc(genv::color(255, 
 GWidget::GWidget(Application* _parent, int x, int y, int _width, int _height, int _bordersize, genv::color _main, genv::color _borderc)
                 : main(_main), borderc(_borderc){
     parent = _parent;
+    hidden = false;
     posx = x;
     posy = y;
     width = _width;
@@ -40,6 +42,7 @@ void GWidget::resize(int _width, int _height) {
 }
 
 void GWidget::show() {
+    hidden = false;
     if(selected) {
         genv::color c = genv::color(0, 255, 255);
         graphicRepr << c << genv::move_to(0, 0) << genv::box_to( width - 1,   height - 1);
@@ -50,6 +53,15 @@ void GWidget::show() {
     graphicRepr << main << genv::move_to(bordersize, bordersize)
                    << genv::box_to( width - bordersize - 1,height - bordersize - 1);
     genv::gout<<genv::stamp(graphicRepr, posx, posy);
+}
+
+void GWidget::hide() {
+    hidden=true;
+    genv::gout<<genv::move_to(posx, posy)<<genv::color(0, 0, 0)<<genv::box_to(posx + width -1, posy + height - 1);
+}
+
+bool GWidget::isHidden() {
+    return hidden;
 }
 
 void GWidget::setBorderSize(int bs) {
@@ -88,4 +100,5 @@ void GWidget::deselect() {
 bool GWidget::isSelected() const {
     return selected;
 }
+
 

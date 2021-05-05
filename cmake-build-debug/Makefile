@@ -208,6 +208,33 @@ GButton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GButton.cpp.s
 .PHONY : GButton.cpp.s
 
+GLabel.obj: GLabel.cpp.obj
+
+.PHONY : GLabel.obj
+
+# target to build an object file
+GLabel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GLabel.cpp.obj
+.PHONY : GLabel.cpp.obj
+
+GLabel.i: GLabel.cpp.i
+
+.PHONY : GLabel.i
+
+# target to preprocess a source file
+GLabel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GLabel.cpp.i
+.PHONY : GLabel.cpp.i
+
+GLabel.s: GLabel.cpp.s
+
+.PHONY : GLabel.s
+
+# target to generate assembly for a file
+GLabel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GLabel.cpp.s
+.PHONY : GLabel.cpp.s
+
 GSelect.obj: GSelect.cpp.obj
 
 .PHONY : GSelect.obj
@@ -289,6 +316,33 @@ GWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GWidget.cpp.s
 .PHONY : GWidget.cpp.s
 
+GameModell.obj: GameModell.cpp.obj
+
+.PHONY : GameModell.obj
+
+# target to build an object file
+GameModell.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GameModell.cpp.obj
+.PHONY : GameModell.cpp.obj
+
+GameModell.i: GameModell.cpp.i
+
+.PHONY : GameModell.i
+
+# target to preprocess a source file
+GameModell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GameModell.cpp.i
+.PHONY : GameModell.cpp.i
+
+GameModell.s: GameModell.cpp.s
+
+.PHONY : GameModell.s
+
+# target to generate assembly for a file
+GameModell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/GameModell.cpp.s
+.PHONY : GameModell.cpp.s
+
 graphics.obj: graphics.cpp.obj
 
 .PHONY : graphics.obj
@@ -359,6 +413,9 @@ help:
 	@echo ... GButton.obj
 	@echo ... GButton.i
 	@echo ... GButton.s
+	@echo ... GLabel.obj
+	@echo ... GLabel.i
+	@echo ... GLabel.s
 	@echo ... GSelect.obj
 	@echo ... GSelect.i
 	@echo ... GSelect.s
@@ -368,6 +425,9 @@ help:
 	@echo ... GWidget.obj
 	@echo ... GWidget.i
 	@echo ... GWidget.s
+	@echo ... GameModell.obj
+	@echo ... GameModell.i
+	@echo ... GameModell.s
 	@echo ... graphics.obj
 	@echo ... graphics.i
 	@echo ... graphics.s
