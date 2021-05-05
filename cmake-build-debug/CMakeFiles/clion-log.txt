@@ -1,0 +1,16 @@
+C:\msys64\mingw64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe"
+-- Configuring done
+CMake Error at CMakeLists.txt:6 (add_library):
+  Cannot find source file:
+
+    graphics.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:6 (add_library):
+  No SOURCES given to target: graphics
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

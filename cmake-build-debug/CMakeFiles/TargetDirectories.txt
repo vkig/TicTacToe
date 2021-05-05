@@ -1,0 +1,4 @@
+D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir
+D:/Dokumentumok/OneDrive - hallgato.ppke.hu/Egyetem/felev_6/BevProgII/beadando_3/TicTacToe/cmake-build-debug/CMakeFiles/graphics.dir
