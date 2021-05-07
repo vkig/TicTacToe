@@ -12,7 +12,7 @@ class GLabel : public GWidget{
     genv::color textc = genv::color(0, 0, 0);
 public:
     GLabel(Application* _parent, int x, int y, int _width, int _height, std::string _text, genv::color _textc = genv::color(255, 255, 255),
-           int _bordersize = 0, genv::color _main = genv::color(100,100,100), genv::color _bordercolor = genv::color(0, 0, 0));
+           int _bordersize = 0, genv::color _main = genv::color(0,0,0), genv::color _bordercolor = genv::color(0, 0, 0));
 
     void setText(std::string _text);
 

@@ -21,6 +21,7 @@ private:
     bool Xturn;
     int steps;
 public:
+    GameModell(){};
     GameModell(int width, int height);
     void clear(int width, int height);
 

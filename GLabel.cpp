@@ -17,10 +17,9 @@ void GLabel::setText(std::string _text){
 
 void GLabel::show(){
     GWidget::show();
-//    graphicRepr<<genv::color(255, 255, 255);
-//    graphicRepr<<genv::move_to(width/2-graphicRepr.twidth(text)/2,height/2-(graphicRepr.cascent()+graphicRepr.cdescent())/2)<<genv::text(text);
-//    graphicRepr<<genv::move_to(0, 0)<<genv::box(10, 10);
-//    genv::gout<<genv::stamp(graphicRepr, posx, posy);
+    graphicRepr<<textc;
+    graphicRepr<<genv::move_to(width/2-graphicRepr.twidth(text)/2,height/2-(graphicRepr.cascent()+graphicRepr.cdescent())/2)<<genv::text(text);
+    genv::gout<<genv::stamp(graphicRepr, posx, posy);
 }
 
 void GLabel::action(genv::event &ev) {
