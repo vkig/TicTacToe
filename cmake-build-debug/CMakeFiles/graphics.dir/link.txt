@@ -1,2 +1,2 @@
-C:\msys64\mingw64\bin\ar.exe qc libgraphics.a CMakeFiles/graphics.dir/graphics.cpp.obj
+C:\msys64\mingw64\bin\ar.exe qc libgraphics.a CMakeFiles/graphics.dir/graphics.cpp.obj CMakeFiles/graphics.dir/GWidget.cpp.obj CMakeFiles/graphics.dir/GButton.cpp.obj CMakeFiles/graphics.dir/GSetNumber.cpp.obj CMakeFiles/graphics.dir/GSelect.cpp.obj CMakeFiles/graphics.dir/Application.cpp.obj CMakeFiles/graphics.dir/GameModell.cpp.obj CMakeFiles/graphics.dir/GLabel.cpp.obj
 C:\msys64\mingw64\bin\ranlib.exe libgraphics.a

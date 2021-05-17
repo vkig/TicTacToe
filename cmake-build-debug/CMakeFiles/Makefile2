@@ -99,7 +99,7 @@ CMakeFiles/TicTacToe.dir/all: CMakeFiles/graphics.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TicTacToe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\cmake-build-debug\CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\cmake-build-debug\CMakeFiles" 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TicTacToe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/TicTacToe.dir/rule
@@ -121,12 +121,12 @@ CMakeFiles/TicTacToe.dir/clean:
 CMakeFiles/graphics.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target graphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\cmake-build-debug\CMakeFiles" --progress-num=3,4,5,6,7,8,9,10,11 "Built target graphics"
 .PHONY : CMakeFiles/graphics.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/graphics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\cmake-build-debug\CMakeFiles" 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/graphics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Dokumentumok\OneDrive - hallgato.ppke.hu\Egyetem\felev_6\BevProgII\beadando_3\TicTacToe\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/graphics.dir/rule
