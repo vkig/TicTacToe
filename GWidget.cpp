@@ -8,6 +8,7 @@
 GWidget::GWidget() : main(genv::color(224, 224, 224)), borderc(genv::color(255, 255, 255)) {
     parent = nullptr;
     hidden = false;
+    enabled = true;
     posx = 0;
     posy = 0;
     width = 10;
@@ -21,6 +22,7 @@ GWidget::GWidget(Application* _parent, int x, int y, int _width, int _height, in
                 : main(_main), borderc(_borderc){
     parent = _parent;
     hidden = false;
+    enabled = true;
     posx = x;
     posy = y;
     width = _width;
@@ -32,7 +34,7 @@ GWidget::GWidget(Application* _parent, int x, int y, int _width, int _height, in
 }
 
 bool GWidget::isMouseOnIt(int ex, int ey) const {
-    return (ex >= posx && ex < posx + width && ey >= posy && ey < posy + height) && !hidden;
+    return (ex >= posx && ex < posx + width && ey >= posy && ey < posy + height) && !hidden && enabled;
 }
 
 void GWidget::resize(int _width, int _height) {
@@ -90,7 +92,8 @@ int GWidget::getPosY() const {
 }
 
 void GWidget::select() {
-    selected = true;
+    if(enabled)
+        selected = true;
 }
 
 void GWidget::deselect() {
@@ -99,6 +102,14 @@ void GWidget::deselect() {
 
 bool GWidget::isSelected() const {
     return selected;
+}
+
+void GWidget::setEnable(bool value) {
+    enabled = value;
+}
+
+bool GWidget::isEnabled() {
+    return enabled;
 }
 
 

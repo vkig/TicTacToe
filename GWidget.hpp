@@ -14,7 +14,7 @@ class GWidget {
 protected:
     Application * parent;
     int posx, posy, width, height, bordersize;
-    bool selected, hidden;
+    bool selected, hidden, enabled;
     genv::color main;
     genv::color borderc;
     genv::canvas graphicRepr;
@@ -37,6 +37,8 @@ public:
     int getPosX() const;
     int getPosY() const;
     bool isSelected() const;
+    void setEnable(bool value);
+    bool isEnabled();
 };
 
 

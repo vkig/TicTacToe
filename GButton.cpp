@@ -10,6 +10,7 @@ GButton::GButton() : GWidget(nullptr, 0, 0, 100, 30) {
     text = "Button";
     textc = genv::color(255, 255, 255);
     pressed = false;
+    enabled = true;
     f = nullptr;
 }
 
@@ -20,6 +21,7 @@ GButton::GButton(Application* _parent, int x, int y, int _width, int _height, in
     textc = _textcolor;
     _type = _t;
     pressed = false;
+    enabled = true;
 }
 
 void GButton::show() {
@@ -61,7 +63,7 @@ void GButton::show() {
 }
 
 void GButton::action(genv::event& ev) {
-    if(ev.type == genv::ev_mouse && isMouseOnIt(ev.pos_x, ev.pos_y))
+    if(ev.type == genv::ev_mouse && isMouseOnIt(ev.pos_x, ev.pos_y) && enabled)
     {
         if(ev.button == genv::btn_left)
         {
@@ -96,5 +98,8 @@ void GButton::setText(std::string text) {
     this->text = text;
     show();
 }
+
+
+
 
 

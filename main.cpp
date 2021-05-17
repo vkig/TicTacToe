@@ -15,6 +15,9 @@ private:
     GSetNumber* widthset;
     GSetNumber* heightset;
     GLabel* gl;
+    bool gameStarted = false;
+    int tableWidth;
+    int tableHeight;
     const int tableSize = 600;
 public:
     MyApp(){}
@@ -42,49 +45,77 @@ public:
     }
 
     void start(){
-        gm = GameModell(widthset->getValue(),heightset->getValue());
-        startbtn->hide();
-        widthset->hide();
-        heightset->hide();
-        int width = widthset -> getValue();
-        int height = heightset -> getValue();
-        gl->setText("X's turn, press left button");
-        int size = std::max(width, height);
-        int a = tableSize / size;
-        for (int i = 0; i < width; ++i) {
-            std::vector<GButton*> tmp;
-            for (int j = 0; j < height; ++j) {
-                GButton* btn_tmp = new GButton(this,10 + i * a, 50 + j * a, a, a, 2, color(105, 105, 105),
-                                               color(0, 0, 0), [this, i, j](){ setButton(i,j);}, GButton::LABELED, color(0, 0, 255), "");
-                tmp.push_back(btn_tmp);
-                addWidget(btn_tmp);
+        if(!gameStarted) {
+            gm = GameModell(widthset->getValue(), heightset->getValue());
+            startbtn->hide();
+            widthset->hide();
+            heightset->hide();
+            tableWidth = widthset->getValue();
+            tableHeight = heightset->getValue();
+            int size = std::max(tableWidth, tableHeight);
+            int a = tableSize / size;
+            int xoffset = (600 - tableWidth * a) / 2 + 10;
+            int yoffset = (600 - tableHeight * a) / 2 + 50;
+            for (int i = 0; i < tableWidth; ++i) {
+                std::vector<GButton *> tmp;
+                for (int j = 0; j < tableHeight; ++j) {
+                    GButton *btn_tmp = new GButton(this, xoffset + i * a, yoffset + j * a, a, a, 2,
+                                                   color(105, 105, 105),
+                                                   color(0, 0, 0), [this, i, j]() { setButton(i, j); },
+                                                   GButton::LABELED, color(255, 255, 255), "");
+                    tmp.push_back(btn_tmp);
+                    addWidget(btn_tmp);
+                }
+                buttonBoard.push_back(tmp);
             }
-            buttonBoard.push_back(tmp);
+            startbtn->setText("New Game");
+            gameStarted = true;
+        }
+        else{
+            gm.clear(tableWidth,tableHeight);
+            for(int i = 0;i<buttonBoard.size();i++){
+                for(int j = 0;j<buttonBoard[i].size();j++){
+                    buttonBoard[i][j]->setEnable(true);
+                    buttonBoard[i][j]->setText("");
+                }
+            }
+        }
+        if (gm.whosTurn() == GameModell::X) {
+            gl->setText("X's turn, press left button");
+        } else {
+            gl->setText("O's turn, press left button");
         }
     }
 
     ~MyApp(){
         delete startbtn;
-        /*delete widthset;
+        delete widthset;
         delete heightset;
-        delete gl;*/
+        delete gl;
     }
     void setButton(int i, int j){
         GameModell::Field type = gm.setField(i, j);
         if(type == GameModell::Field::O){
             buttonBoard[i][j]->setText("O");
+            gl->setText("X's turn, press left button");
         } else if(type == GameModell::Field::X){
             buttonBoard[i][j]->setText("X");
+            gl->setText("O's turn, press left button");
         }
         type = gm.isWin(i,j);
-        if(type == GameModell::Field::X){
-            std::cout<<"X won the game\n";
-        } else if(type == GameModell::Field::O){
-            std::cout<<"O won the game\n";
-        } else if(type == GameModell::Field::EMPTY){
-            std::cout<<"Nobody won\n";
-        } else if(type == GameModell::Field::FULL){
-            std::cout<<"The table is full\n";
+        if(type != GameModell::EMPTY){
+            if(type == GameModell::Field::X){
+                gl->setText("X won the game! Press New Game!");
+            } else if(type == GameModell::Field::O){
+                gl->setText("O won the game! Press New Game!");
+            } else if(type == GameModell::Field::FULL){
+                gl->setText("The table is full! Press New Game!");
+            }
+            for(int k = 0;k<buttonBoard.size();k++){
+                for(int l = 0;l<buttonBoard[k].size();l++){
+                    buttonBoard[k][l]->setEnable(false);
+                }
+            }
         }
     }
 };
