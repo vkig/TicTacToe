@@ -32,7 +32,7 @@ GWidget::GWidget(Application* _parent, int x, int y, int _width, int _height, in
 }
 
 bool GWidget::isMouseOnIt(int ex, int ey) const {
-    return (ex >= posx && ex < posx + width && ey >= posy && ey < posy + height);
+    return (ex >= posx && ex < posx + width && ey >= posy && ey < posy + height) && !hidden;
 }
 
 void GWidget::resize(int _width, int _height) {

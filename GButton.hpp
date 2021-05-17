@@ -29,6 +29,7 @@ public:
     void action(genv::event& ev) override;
     void show() override;
     void changeType(type _t);
+    void setText(std::string text);
 };
 
 

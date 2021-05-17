@@ -92,4 +92,9 @@ void GButton::changeType(type _t) {
     _type = _t;
 }
 
+void GButton::setText(std::string text) {
+    this->text = text;
+    show();
+}
+
 

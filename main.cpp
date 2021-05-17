@@ -15,17 +15,18 @@ private:
     GSetNumber* widthset;
     GSetNumber* heightset;
     GLabel* gl;
+    const int tableSize = 600;
 public:
     MyApp(){}
     MyApp(int X, int Y){
         XX = X;
         YY = Y;
         gl = new GLabel(this, XX/2-180, 10,360,30,"Set the width and height of the board!");
-        startbtn = new GButton(this, XX/2-50, YY*4/5, 100,30,2,
+        startbtn = new GButton(this, XX/2-50, YY - 30, 100,30,2,
                                color(200, 200, 200),color(255, 255, 255),[this]{start();},GButton::LABELED,color(0, 0, 0),
                                "START");
-        widthset = new GSetNumber(this, XX/2-100,YY/2,50,30,2,15,15,30);
-        heightset = new GSetNumber(this, XX/2+50,YY/2,50,30,2,15,15,30);
+        widthset = new GSetNumber(this, XX/2-150,YY/2-25,100,50,2,15,15,30);
+        heightset = new GSetNumber(this, XX/2+50,YY/2-25,100,50,2,15,15,30);
         addWidget(gl);
         addWidget(startbtn);
         addWidget(widthset);
@@ -45,12 +46,20 @@ public:
         startbtn->hide();
         widthset->hide();
         heightset->hide();
+        int width = widthset -> getValue();
+        int height = heightset -> getValue();
         gl->setText("X's turn, press left button");
-        buttonBoard = std::vector<std::vector<GButton*>>(widthset->getValue(),std::vector<GButton*>(nullptr,heightset->getValue()));
-        for (int i = 0; i < widthset->getValue(); ++i) {
-            for (int j = 0; j < heightset->getValue(); ++j) {
-
+        int size = std::max(width, height);
+        int a = tableSize / size;
+        for (int i = 0; i < width; ++i) {
+            std::vector<GButton*> tmp;
+            for (int j = 0; j < height; ++j) {
+                GButton* btn_tmp = new GButton(this,10 + i * a, 50 + j * a, a, a, 2, color(105, 105, 105),
+                                               color(0, 0, 0), [this, i, j](){ setButton(i,j);}, GButton::LABELED, color(0, 0, 255), "");
+                tmp.push_back(btn_tmp);
+                addWidget(btn_tmp);
             }
+            buttonBoard.push_back(tmp);
         }
     }
 
@@ -60,18 +69,29 @@ public:
         delete heightset;
         delete gl;*/
     }
-    void moveItem(GSelect * from, GSelect * to){
-        std::string s = from->getSelected();
-        if(s != ""){
-            to->addItem(s);
-            from->removeItem(from->getSelected());
+    void setButton(int i, int j){
+        GameModell::Field type = gm.setField(i, j);
+        if(type == GameModell::Field::O){
+            buttonBoard[i][j]->setText("O");
+        } else if(type == GameModell::Field::X){
+            buttonBoard[i][j]->setText("X");
+        }
+        type = gm.isWin(i,j);
+        if(type == GameModell::Field::X){
+            std::cout<<"X won the game\n";
+        } else if(type == GameModell::Field::O){
+            std::cout<<"O won the game\n";
+        } else if(type == GameModell::Field::EMPTY){
+            std::cout<<"Nobody won\n";
+        } else if(type == GameModell::Field::FULL){
+            std::cout<<"The table is full\n";
         }
     }
 };
 
 int main()
 {
-    MyApp ma(400,400);
+    MyApp ma(620,690);
     ma.eventManager();
     return 0;
 }
